@@ -3,72 +3,163 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-*{
+
+* {
     box-sizing: border-box;
-}  
-body{
+}
+
+body {
     display: flex;
     font-family: 'runda', sans-serif;
 }
 
 
 /*--------------menu------------------------------*/
-.menu{
-    width:25%;
+.menu {
+    width: 25%;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     background-color: #40A0A6;
-    
+
 }
-.principal{
+
+.principal {
     display: flex;
     height: 1400px;
 }
-.logo{
-  background-color:#46AAB0;
+
+.logo {
+    background-color: #46AAB0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,74 +173,75 @@ nav {
     padding: 30px;
 }
 
-nav a{
+nav a {
     padding: 15px;
     text-decoration: none;
     color: #ffffff;
 }
-      
 
-.img1 img{
+
+.img1 img {
     padding: 15px;
 }
-footer{
+
+footer {
     display: flex;
     position: relative;
-    top:700px;
-    justify-content:center;
-    
-}  
+    top: 700px;
+    justify-content: center;
+
+}
 
 
 
 
-  /*----------------principal---------------*/
+/*----------------principal---------------*/
 
-.principal{
+.principal {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     background: #E5E5E5;
     background-image: url(img/Image_01.png);
     background-repeat: no-repeat;
     width: 100%;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
-    padding:30px;
-   
+    padding: 30px;
+
 }
 
-.button a{
-  text-align: center;
-  color: black;
-  text-decoration: none;
-  border: 2px solid #46AAB0;
-  background: #46AAB0;
-  width: 120px;
-  padding: 5px;
-  
+.button a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border: 2px solid #46AAB0;
+    background: #46AAB0;
+    width: 120px;
+    padding: 5px;
+
 }
 
-.button{
+.button {
     display: flex;
     justify-content: flex-end;
 }
 
 
 
-h1{
-   color: #ffffff;
-   font-style: normal;
-   font-weight: normal;
+h1 {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
     font-size: 44px;
-   line-height: 48px;
+    line-height: 48px;
 
-  
+
 }
 
-.principal p{
+.principal p {
     color: #ffffff;
     font-style: normal;
     font-weight: 300;
@@ -157,154 +249,158 @@ h1{
     line-height: 27px;
     margin-bottom: 20px;
     margin-top: 20px;
-    
+
 }
 
-span{
+span {
     color: #ffffff;
-    font-weight:600;
+    font-weight: 600;
     font-size: 17px;
     font-style: italic;
     line-height: 27px;
     padding: 10px;
 }
 
-.name{
+.name {
     display: flex;
-     flex-direction: row;   
-       
+    flex-direction: row;
+
 }
 
-.name2{
-   display: flex;
-   flex-direction:column; 
-   justify-content:flex-start;
-   align-items: flex-start;
-   padding-left:100px;
-   
+.name2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 100px;
+
 }
 
-.name img{
+.name img {
     position: relative;
-    left:50px;
-    top:45px;
-   
-}
-
-
-
-h2{
- font-family: 'Runda', sans-serif;
- font-style: normal;
- font-weight:bold;
- font-size: 18px;
- line-height: 20px;
- color: #FFFFFF;
- 
-}
-    
-.name2 p{
-  margin:0;
- 
+    left: 50px;
+    top: 45px;
 
 }
 
-.secundario{
-    display: flex; 
-    margin: 90px;
-}      
 
 
-.white{
+h2 {
+    font-family: 'Runda', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.name2 p {
+    margin: 0;
+
+
+}
+
+.secundario {
     display: flex;
-    background-color: white; 
-    height:250px;
-   
-   
+    margin: 90px;
 }
 
-h3{
-    color: black;
-    font-family: 'Runda',sans-serif;
-   font-style: normal;
-   font-weight:normal;
-   font-size: 24px;
-   line-height: 27px;
-   padding-left:20px;
-   padding-top: 10px;
-  
+
+.white {
+    display: flex;
+    background-color: white;
+    height: 250px;
+
+
 }
- 
-.white p{
-    font-family: 'runda',sans-serif;
-    color:black;
+
+h3 {
+    color: black;
+    font-family: 'Runda', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+
+
+}
+
+.white p {
+    font-family: 'runda', sans-serif;
+    color: black;
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
     line-height: 27px;
-   color: rgba(42, 55, 55, 0.85);  
-   flex-shrink: 1;
+    color: rgba(42, 55, 55, 0.85);
+    flex-shrink: 1;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
-.secundario2{
+.secundario2 {
     display: flex;
     flex-direction: column;
-   
-    
-}  
 
 
-.secundario2 p{
+}
+
+
+.secundario2 p {
     color: black;
-     width: 90%;
-     padding: 20px;
-     font-family: 'Runda',sans-serif;
-     font-style: italic;
-     font-weight:600;
+    width: 90%;
+    padding: 20px;
+    font-family: 'Runda', sans-serif;
+    font-style: italic;
+    font-weight: 600;
     font-size: 17px;
     line-height: 27px;
-  
-    
+
+
 }
 
-.bloque{
+.bloque {
     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     width: 50%;
-     position: relative;
-     bottom: 390px;
-    
-}
-
-h4{
- font-family: 'Runda',sans-serif;
- font-style: normal;
- font-weight: 500;
- font-size: 16px;
- line-height: 27px;
- text-transform: uppercase;
- color: #40A0A6;
- padding-right:300px;
- margin-bottom:32px;
- 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    bottom: 390px;
 
 }
 
-.bloque h3{
+h4 {
+    font-family: 'Runda', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #40A0A6;
+    padding-right: 300px;
+    margin-bottom: 32px;
+
+
+}
+
+.bloque h3 {
     padding-right: 130px;
 }
 
-.bloque p{
-    font-family: 'Runda',sans-serif;
-   font-style: normal;
-   font-weight: 300;
-   font-size: 17px;
-  line-height: 27px;
-  color: rgba(42, 55, 55, 0.85);
-  padding-left: 30px;
-  padding-right: 30px;
+.bloque p {
+    font-family: 'Runda', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: rgba(42, 55, 55, 0.85);
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
